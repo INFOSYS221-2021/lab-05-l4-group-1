@@ -5,7 +5,7 @@
 * Olivia Joe-West
 * Amos Lou
 
-### Excerise 1
+#### Excerise 1
 ```
  private String reverseString(String word) {
         String revWord = "";
@@ -15,7 +15,7 @@
             // revWord = revWord + word.charAt(order);
             revWord =  word.charAt(i)+revWord ;
 ```  
-### Exercise 2
+#### Exercise 2
 ```
 n = 6
 temp = n - 1
@@ -28,12 +28,10 @@ for i in range(n - 1):
 
 print("The value at the ", n, "th postion in the Fibonacci sequence is ", num, sep = "")
 ```
-### Exercise 3
-```
-num = input(str("Enter a  value: "))
-if num[0] == "-":
-    num = num[1:]
-    print(num)
-length = len(num)
-print("The number of digits for a value of", num, "is", length)
-```
+  private boolean isStringPalindrome(String word) {
+        String revWord = reverseString(word);
+        return revWord.equals(word);
+        
+    }
+    
+}
