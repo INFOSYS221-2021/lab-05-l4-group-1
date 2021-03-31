@@ -38,4 +38,10 @@ print("The value at the ", n, "th postion in the Fibonacci sequence is ", num, s
     }
     
 }
+private boolean isStringPalindrome(String word) {
+        String revWord = reverseString(word);
+        return revWord.toLowerCase().equals(word.toLowerCase());
+        
+    }
+    
 ```
