@@ -2,5 +2,5 @@
 
 ## Names
 * Jack McGrath
-* Ollivia Joe-West
+* Olivia Joe-West
 * Amos Lou
