@@ -18,15 +18,18 @@
 #### Exercise 2
 ```
 n = 6
-temp = 0 # initialise temp
-num = 1 # start at 1
-prevNum = 0 # prev num is 0
+temp = 0 #initialise temp
+num = 1 #start at 1
+prevNum = 0 #prev num is 0
 for i in range(n - 1):
     temp = num #hold num temporarily
     num += prevNum #add previous number
     prevNum = temp #make the previous number the temp so that it is held for the next iteration
 
 print("The value at the ", n, "th postion in the Fibonacci sequence is ", num, sep = "")
+```
+  
+#### Exercise 3
 ```
   private boolean isStringPalindrome(String word) {
         String revWord = reverseString(word);
@@ -35,3 +38,4 @@ print("The value at the ", n, "th postion in the Fibonacci sequence is ", num, s
     }
     
 }
+```
