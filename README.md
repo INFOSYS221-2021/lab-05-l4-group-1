@@ -18,7 +18,7 @@
 #### Exercise 2
 ```
 n = 6
-temp = n - 1
+temp = 0
 num = 1
 prevNum = 0
 for i in range(n - 1):
