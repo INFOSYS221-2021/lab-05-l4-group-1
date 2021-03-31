@@ -31,17 +31,19 @@ print("The value at the ", n, "th postion in the Fibonacci sequence is ", num, s
   
 #### Exercise 3
 ```
-  private boolean isStringPalindrome(String word) {
-        String revWord = reverseString(word);
-        return revWord.equals(word);
-        
-    }
-    
-}
+num = input(str("Enter a  value: "))
+if num[0] == "-":
+    num = num[1:]
+    print(num)
+length = len(num)
+print("The number of digits for a value of", num, "is", length)
+```
+
+#### Exercise 4
+```
 private boolean isStringPalindrome(String word) {
         String revWord = reverseString(word);
         return revWord.toLowerCase().equals(word.toLowerCase());
         
-    }
-    
+}
 ```
